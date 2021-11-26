@@ -1,0 +1,133 @@
+entity Exercise {
+  name String required,
+  description String
+}
+
+entity BodyMeasurement {
+	value Double required,
+    bodyMeasurementDateTime ZonedDateTime,
+
+}
+
+entity ExerciseCategory {
+  name String required,
+  categoryOrder Integer
+}
+
+entity ExerciseImage {
+	uuid UUID,
+    image ImageBlob,
+    main Boolean
+}
+
+entity MeasurementType {
+  name String required,
+  description String,
+  measurementOrder Integer,
+  measurementUnit String
+}
+
+entity Muscle {
+  name String,
+  description String,
+  muscleOrder Integer,
+  imageUrlMain String,
+  imageUrlSecondary String,
+  front Boolean
+}
+
+entity ProgressPhoto {
+	note String,
+    image ImageBlob
+    weightDate ZonedDateTime
+}
+entity RepType {
+   name String,
+   display String
+}
+entity Weight {
+	value Double,
+    weightDateTime ZonedDateTime
+}
+
+entity Workout {
+	title String,
+    description String,
+    workoutStartDateTime ZonedDateTime,
+    workoutEndDateTime ZonedDateTime,
+}
+entity WorkoutExercise {
+	note String,
+    timer Duration,
+}
+entity WorkoutExerciseSet {
+  	reps Integer,
+    weight Integer,
+    time Duration,
+    complete Boolean
+    completeTime Duration
+}
+entity WorkoutRoutine {
+    title String,
+    description String
+}
+entity WorkoutRoutineExercise {
+	note String,
+    timer Duration,
+}
+entity WorkoutRoutineExerciseSet {
+  	reps Integer,
+    weight Integer,
+    time Duration
+}
+
+entity WorkoutRoutineGroup  {
+	name String
+}
+
+
+
+relationship ManyToOne {
+	//Employee{manager} to Employee
+    Exercise to RepType,
+    Exercise to ExerciseCategory,
+
+    BodyMeasurement to MeasurementType,
+    Weight to MeasurementType,
+
+    Workout to WorkoutRoutine,
+
+    WorkoutExercise to Exercise,
+    WorkoutExercise to WorkoutRoutineExercise,
+
+
+    WorkoutRoutine to WorkoutRoutineExercise,
+
+    Workout to User
+}
+
+relationship OneToMany {
+	Workout to WorkoutExercise,
+    WorkoutExercise to WorkoutExerciseSet,
+    WorkoutRoutineExercise to WorkoutRoutineExerciseSet
+}
+
+relationship ManyToMany {
+	Exercise to ExerciseImage,
+    Exercise to Muscle,
+    WorkoutRoutineGroup to WorkoutRoutine
+}
+
+// Set pagination options
+//paginate JobHistory, Employee with infinite-scroll
+//paginate Job with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
+
