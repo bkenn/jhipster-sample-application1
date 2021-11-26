@@ -7,6 +7,22 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "exercise": "Exercise",
+        "bodyMeasurement": "Body Measurement",
+        "exerciseCategory": "Exercise Category",
+        "exerciseImage": "Exercise Image",
+        "measurementType": "Measurement Type",
+        "muscle": "Muscle",
+        "progressPhoto": "Progress Photo",
+        "repType": "Rep Type",
+        "weight": "Weight",
+        "workout": "Workout",
+        "workoutExercise": "Workout Exercise",
+        "workoutExerciseSet": "Workout Exercise Set",
+        "workoutRoutine": "Workout Routine",
+        "workoutRoutineExercise": "Workout Routine Exercise",
+        "workoutRoutineExerciseSet": "Workout Routine Exercise Set",
+        "workoutRoutineGroup": "Workout Routine Group",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

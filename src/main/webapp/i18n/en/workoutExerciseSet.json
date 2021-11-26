@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplication1App": {
+    "workoutExerciseSet": {
+      "home": {
+        "title": "Workout Exercise Sets",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Workout Exercise Set",
+        "createOrEditLabel": "Create or edit a Workout Exercise Set",
+        "search": "Search for Workout Exercise Set",
+        "notFound": "No Workout Exercise Sets found"
+      },
+      "created": "A new Workout Exercise Set is created with identifier {{ param }}",
+      "updated": "A Workout Exercise Set is updated with identifier {{ param }}",
+      "deleted": "A Workout Exercise Set is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Workout Exercise Set {{ id }}?"
+      },
+      "detail": {
+        "title": "Workout Exercise Set"
+      },
+      "id": "ID",
+      "reps": "Reps",
+      "weight": "Weight",
+      "time": "Time",
+      "complete": "Complete",
+      "completeTime": "Complete Time",
+      "workoutExercise": "Workout Exercise"
+    }
+  }
+}

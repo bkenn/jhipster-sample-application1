@@ -1,0 +1,49 @@
+{
+  "name": "WorkoutExercise",
+  "fields": [
+    {
+      "fieldName": "note",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "timer",
+      "fieldType": "Duration"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "workoutExerciseSet",
+      "otherEntityRelationshipName": "workoutExercise",
+      "relationshipName": "workoutExerciseSet"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "exercise",
+      "otherEntityRelationshipName": "workoutExercise",
+      "relationshipName": "exercise"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "workoutRoutineExercise",
+      "otherEntityRelationshipName": "workoutExercise",
+      "relationshipName": "workoutRoutineExercise"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "workout",
+      "otherEntityRelationshipName": "workoutExercise",
+      "relationshipName": "workout"
+    }
+  ],
+  "entityTableName": "workout_exercise",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210648"
+}

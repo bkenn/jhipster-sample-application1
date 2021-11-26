@@ -1,0 +1,58 @@
+{
+  "name": "Exercise",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "repType",
+      "otherEntityRelationshipName": "exercise",
+      "relationshipName": "repType"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "exerciseCategory",
+      "otherEntityRelationshipName": "exercise",
+      "relationshipName": "exerciseCategory"
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "exerciseImage",
+      "otherEntityRelationshipName": "exercise",
+      "relationshipName": "exerciseImage",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "muscle",
+      "otherEntityRelationshipName": "exercise",
+      "relationshipName": "muscle",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "workoutExercise",
+      "otherEntityRelationshipName": "exercise",
+      "relationshipName": "workoutExercise"
+    }
+  ],
+  "entityTableName": "exercise",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210638"
+}

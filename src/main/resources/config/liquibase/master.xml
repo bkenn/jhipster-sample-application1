@@ -15,7 +15,32 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210638_added_entity_Exercise.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210639_added_entity_BodyMeasurement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210640_added_entity_ExerciseCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210641_added_entity_ExerciseImage.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210642_added_entity_MeasurementType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210643_added_entity_Muscle.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210644_added_entity_ProgressPhoto.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210645_added_entity_RepType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210646_added_entity_Weight.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210647_added_entity_Workout.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210648_added_entity_WorkoutExercise.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210649_added_entity_WorkoutExerciseSet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210650_added_entity_WorkoutRoutine.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210651_added_entity_WorkoutRoutineExercise.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210652_added_entity_WorkoutRoutineExerciseSet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210653_added_entity_WorkoutRoutineGroup.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20211126210638_added_entity_constraints_Exercise.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210639_added_entity_constraints_BodyMeasurement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210646_added_entity_constraints_Weight.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210647_added_entity_constraints_Workout.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210648_added_entity_constraints_WorkoutExercise.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210649_added_entity_constraints_WorkoutExerciseSet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210650_added_entity_constraints_WorkoutRoutine.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210652_added_entity_constraints_WorkoutRoutineExerciseSet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20211126210653_added_entity_constraints_WorkoutRoutineGroup.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

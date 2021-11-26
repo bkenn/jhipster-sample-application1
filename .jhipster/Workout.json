@@ -1,0 +1,51 @@
+{
+  "name": "Workout",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "workoutStartDateTime",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "workoutEndDateTime",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "workoutExercise",
+      "otherEntityRelationshipName": "workout",
+      "relationshipName": "workoutExercise"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "workoutRoutine",
+      "otherEntityRelationshipName": "workout",
+      "relationshipName": "workoutRoutine"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "workout",
+      "relationshipName": "user"
+    }
+  ],
+  "entityTableName": "workout",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210647"
+}

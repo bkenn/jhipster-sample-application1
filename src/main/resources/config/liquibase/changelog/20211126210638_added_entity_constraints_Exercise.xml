@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Exercise.
+    -->
+    <changeSet id="20211126210638-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="rep_type_id"
+                                 baseTableName="exercise"
+                                 constraintName="fk_exercise__rep_type_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="rep_type"/>
+
+        <addForeignKeyConstraint baseColumnNames="exercise_category_id"
+                                 baseTableName="exercise"
+                                 constraintName="fk_exercise__exercise_category_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="exercise_category"/>
+
+        <addForeignKeyConstraint baseColumnNames="exercise_id"
+                                 baseTableName="rel_exercise__exercise_image"
+                                 constraintName="fk_rel_exercise__exercise_image__exercise_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="exercise"/>
+
+        <addForeignKeyConstraint baseColumnNames="exercise_image_id"
+                                 baseTableName="rel_exercise__exercise_image"
+                                 constraintName="fk_rel_exercise__exercise_image__exercise_image_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="exercise_image"/>
+
+        <addForeignKeyConstraint baseColumnNames="exercise_id"
+                                 baseTableName="rel_exercise__muscle"
+                                 constraintName="fk_rel_exercise__muscle__exercise_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="exercise"/>
+
+        <addForeignKeyConstraint baseColumnNames="muscle_id"
+                                 baseTableName="rel_exercise__muscle"
+                                 constraintName="fk_rel_exercise__muscle__muscle_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="muscle"/>
+    </changeSet>
+</databaseChangeLog>

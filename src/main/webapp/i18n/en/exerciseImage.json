@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication1App": {
+    "exerciseImage": {
+      "home": {
+        "title": "Exercise Images",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Exercise Image",
+        "createOrEditLabel": "Create or edit a Exercise Image",
+        "search": "Search for Exercise Image",
+        "notFound": "No Exercise Images found"
+      },
+      "created": "A new Exercise Image is created with identifier {{ param }}",
+      "updated": "A Exercise Image is updated with identifier {{ param }}",
+      "deleted": "A Exercise Image is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Exercise Image {{ id }}?"
+      },
+      "detail": {
+        "title": "Exercise Image"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "image": "Image",
+      "main": "Main",
+      "exercise": "Exercise"
+    }
+  }
+}

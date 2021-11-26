@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplication1App": {
+    "repType": {
+      "home": {
+        "title": "RepTypes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Rep Type",
+        "createOrEditLabel": "Créer ou éditer un Rep Type",
+        "search": "Recherche pour Rep Type",
+        "notFound": "Aucun Rep Type trouvé"
+      },
+      "created": "Un nouveau Rep Type a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Rep Type avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Rep Type avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Rep Type {{ id }} ?"
+      },
+      "detail": {
+        "title": "Rep Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "display": "Display",
+      "exercise": "Exercise"
+    }
+  }
+}

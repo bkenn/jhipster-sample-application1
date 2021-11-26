@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplication1App": {
+    "exerciseImage": {
+      "home": {
+        "title": "ExerciseImages",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Exercise Image",
+        "createOrEditLabel": "Créer ou éditer un Exercise Image",
+        "search": "Recherche pour Exercise Image",
+        "notFound": "Aucun Exercise Image trouvé"
+      },
+      "created": "Un nouveau Exercise Image a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Exercise Image avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Exercise Image avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Exercise Image {{ id }} ?"
+      },
+      "detail": {
+        "title": "Exercise Image"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "image": "Image",
+      "main": "Main",
+      "exercise": "Exercise"
+    }
+  }
+}

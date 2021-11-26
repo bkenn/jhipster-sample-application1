@@ -1,0 +1,11 @@
+id;uuid;image;image_content_type;main
+1;6c6e8cbc-d156-42c5-9ab7-469637d5895d;../fake-data/blob/hipster.png;image/png;true
+2;e6345933-6e8a-4368-85e0-0aa62f3249b2;../fake-data/blob/hipster.png;image/png;true
+3;7ddc550b-aada-4cf3-b10d-fa4d14628b74;../fake-data/blob/hipster.png;image/png;false
+4;d1ab8cea-8877-4195-a496-2011441355fe;../fake-data/blob/hipster.png;image/png;false
+5;cbb51b8e-6800-4da1-9822-0f0c07ffc904;../fake-data/blob/hipster.png;image/png;true
+6;b2585395-4a38-4efe-ad0f-40af14cbd79e;../fake-data/blob/hipster.png;image/png;false
+7;c612a51d-0cd7-412f-bc30-2af24f8c484f;../fake-data/blob/hipster.png;image/png;true
+8;4226df79-719a-44d2-acd9-6d72143a33c5;../fake-data/blob/hipster.png;image/png;false
+9;bf6dc361-a1fb-48dd-8e15-8566670c0a84;../fake-data/blob/hipster.png;image/png;true
+10;ca4f05cd-164c-4e64-b435-2081a0539529;../fake-data/blob/hipster.png;image/png;false

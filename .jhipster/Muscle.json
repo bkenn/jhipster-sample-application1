@@ -1,0 +1,48 @@
+{
+  "name": "Muscle",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "muscleOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "imageUrlMain",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imageUrlSecondary",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "front",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "exercise",
+      "otherEntityRelationshipName": "muscle",
+      "relationshipName": "exercise",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "muscle",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210643"
+}

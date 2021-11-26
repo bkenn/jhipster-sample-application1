@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplication1App": {
+    "progressPhoto": {
+      "home": {
+        "title": "Progress Photos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Progress Photo",
+        "createOrEditLabel": "Create or edit a Progress Photo",
+        "search": "Search for Progress Photo",
+        "notFound": "No Progress Photos found"
+      },
+      "created": "A new Progress Photo is created with identifier {{ param }}",
+      "updated": "A Progress Photo is updated with identifier {{ param }}",
+      "deleted": "A Progress Photo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Progress Photo {{ id }}?"
+      },
+      "detail": {
+        "title": "Progress Photo"
+      },
+      "id": "ID",
+      "note": "Note",
+      "image": "Image",
+      "weightDate": "Weight Date"
+    }
+  }
+}

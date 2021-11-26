@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity WorkoutRoutineGroup.
+    -->
+    <changeSet id="20211126210653-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="workout_routine_group_id"
+                                 baseTableName="rel_workout_routine_group__workout_routine"
+                                 constraintName="fk_rel_workout_routine_group__w__workout_routine_group_93_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="workout_routine_group"/>
+
+        <addForeignKeyConstraint baseColumnNames="workout_routine_id"
+                                 baseTableName="rel_workout_routine_group__workout_routine"
+                                 constraintName="fk_rel_workout_routine_group__w__workout_routine_d3_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="workout_routine"/>
+    </changeSet>
+</databaseChangeLog>
