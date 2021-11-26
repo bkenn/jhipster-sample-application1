@@ -1,0 +1,32 @@
+{
+  "name": "BodyMeasurement",
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "bodyMeasurementDateTime",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "measurementType",
+      "otherEntityRelationshipName": "bodyMeasurement",
+      "relationshipName": "measurementType"
+    }
+  ],
+  "entityTableName": "body_measurement",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210639"
+}

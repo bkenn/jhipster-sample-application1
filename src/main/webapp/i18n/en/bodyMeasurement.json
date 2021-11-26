@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplication1App": {
+    "bodyMeasurement": {
+      "home": {
+        "title": "Body Measurements",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Body Measurement",
+        "createOrEditLabel": "Create or edit a Body Measurement",
+        "search": "Search for Body Measurement",
+        "notFound": "No Body Measurements found"
+      },
+      "created": "A new Body Measurement is created with identifier {{ param }}",
+      "updated": "A Body Measurement is updated with identifier {{ param }}",
+      "deleted": "A Body Measurement is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Body Measurement {{ id }}?"
+      },
+      "detail": {
+        "title": "Body Measurement"
+      },
+      "id": "ID",
+      "value": "Value",
+      "bodyMeasurementDateTime": "Body Measurement Date Time",
+      "measurementType": "Measurement Type"
+    }
+  }
+}

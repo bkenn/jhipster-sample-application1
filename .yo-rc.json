@@ -41,7 +41,26 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": [
+      "Exercise",
+      "BodyMeasurement",
+      "ExerciseCategory",
+      "ExerciseImage",
+      "MeasurementType",
+      "Muscle",
+      "ProgressPhoto",
+      "RepType",
+      "Weight",
+      "Workout",
+      "WorkoutExercise",
+      "WorkoutExerciseSet",
+      "WorkoutRoutine",
+      "WorkoutRoutineExercise",
+      "WorkoutRoutineExerciseSet",
+      "WorkoutRoutineGroup"
+    ],
+    "lastLiquibaseTimestamp": 1637960813000
   },
   "git-provider": "GitHub",
   "git-company": "bkenn",

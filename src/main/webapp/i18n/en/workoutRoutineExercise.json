@@ -1,0 +1,29 @@
+{
+  "jhipsterSampleApplication1App": {
+    "workoutRoutineExercise": {
+      "home": {
+        "title": "Workout Routine Exercises",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Workout Routine Exercise",
+        "createOrEditLabel": "Create or edit a Workout Routine Exercise",
+        "search": "Search for Workout Routine Exercise",
+        "notFound": "No Workout Routine Exercises found"
+      },
+      "created": "A new Workout Routine Exercise is created with identifier {{ param }}",
+      "updated": "A Workout Routine Exercise is updated with identifier {{ param }}",
+      "deleted": "A Workout Routine Exercise is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Workout Routine Exercise {{ id }}?"
+      },
+      "detail": {
+        "title": "Workout Routine Exercise"
+      },
+      "id": "ID",
+      "note": "Note",
+      "timer": "Timer",
+      "workoutRoutineExerciseSet": "Workout Routine Exercise Set",
+      "workoutExercise": "Workout Exercise",
+      "workoutRoutine": "Workout Routine"
+    }
+  }
+}

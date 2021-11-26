@@ -1,0 +1,31 @@
+{
+  "name": "RepType",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "display",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "exercise",
+      "otherEntityRelationshipName": "repType",
+      "relationshipName": "exercise"
+    }
+  ],
+  "entityTableName": "rep_type",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210645"
+}

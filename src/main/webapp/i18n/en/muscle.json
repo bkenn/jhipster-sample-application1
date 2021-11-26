@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplication1App": {
+    "muscle": {
+      "home": {
+        "title": "Muscles",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Muscle",
+        "createOrEditLabel": "Create or edit a Muscle",
+        "search": "Search for Muscle",
+        "notFound": "No Muscles found"
+      },
+      "created": "A new Muscle is created with identifier {{ param }}",
+      "updated": "A Muscle is updated with identifier {{ param }}",
+      "deleted": "A Muscle is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Muscle {{ id }}?"
+      },
+      "detail": {
+        "title": "Muscle"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "muscleOrder": "Muscle Order",
+      "imageUrlMain": "Image Url Main",
+      "imageUrlSecondary": "Image Url Secondary",
+      "front": "Front",
+      "exercise": "Exercise"
+    }
+  }
+}

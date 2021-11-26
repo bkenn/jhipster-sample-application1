@@ -1,0 +1,30 @@
+{
+  "jhipsterSampleApplication1App": {
+    "measurementType": {
+      "home": {
+        "title": "Measurement Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Measurement Type",
+        "createOrEditLabel": "Create or edit a Measurement Type",
+        "search": "Search for Measurement Type",
+        "notFound": "No Measurement Types found"
+      },
+      "created": "A new Measurement Type is created with identifier {{ param }}",
+      "updated": "A Measurement Type is updated with identifier {{ param }}",
+      "deleted": "A Measurement Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Measurement Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Measurement Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "measurementOrder": "Measurement Order",
+      "measurementUnit": "Measurement Unit",
+      "bodyMeasurement": "Body Measurement",
+      "weight": "Weight"
+    }
+  }
+}

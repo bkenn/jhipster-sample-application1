@@ -1,0 +1,35 @@
+{
+  "name": "WorkoutRoutineExerciseSet",
+  "fields": [
+    {
+      "fieldName": "reps",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "weight",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "time",
+      "fieldType": "Duration"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "workoutRoutineExercise",
+      "otherEntityRelationshipName": "workoutRoutineExerciseSet",
+      "relationshipName": "workoutRoutineExercise"
+    }
+  ],
+  "entityTableName": "workout_routine_exercise_set",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210652"
+}

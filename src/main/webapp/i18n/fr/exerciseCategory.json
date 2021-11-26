@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplication1App": {
+    "exerciseCategory": {
+      "home": {
+        "title": "ExerciseCategories",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Exercise Category",
+        "createOrEditLabel": "Créer ou éditer un Exercise Category",
+        "search": "Recherche pour Exercise Category",
+        "notFound": "Aucun Exercise Category trouvé"
+      },
+      "created": "Un nouveau Exercise Category a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Exercise Category avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Exercise Category avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Exercise Category {{ id }} ?"
+      },
+      "detail": {
+        "title": "Exercise Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "categoryOrder": "Category Order",
+      "exercise": "Exercise"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "MeasurementType",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "measurementOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "measurementUnit",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "bodyMeasurement",
+      "otherEntityRelationshipName": "measurementType",
+      "relationshipName": "bodyMeasurement"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "weight",
+      "otherEntityRelationshipName": "measurementType",
+      "relationshipName": "weight"
+    }
+  ],
+  "entityTableName": "measurement_type",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211126210642"
+}

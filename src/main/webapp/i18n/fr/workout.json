@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplication1App": {
+    "workout": {
+      "home": {
+        "title": "Workouts",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Workout",
+        "createOrEditLabel": "Créer ou éditer un Workout",
+        "search": "Recherche pour Workout",
+        "notFound": "Aucun Workout trouvé"
+      },
+      "created": "Un nouveau Workout a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Workout avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Workout avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Workout {{ id }} ?"
+      },
+      "detail": {
+        "title": "Workout"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "workoutStartDateTime": "Workout Start Date Time",
+      "workoutEndDateTime": "Workout End Date Time",
+      "workoutExercise": "Workout Exercise",
+      "workoutRoutine": "Workout Routine",
+      "user": "User"
+    }
+  }
+}
